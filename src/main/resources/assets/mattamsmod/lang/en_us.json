@@ -1,0 +1,29 @@
+{
+  "itemGroup.mattamstab": "Mattams Tab",
+
+  "item.mattamsmod.raw_brass": "Raw Brass",
+  "item.mattamsmod.brass_ingot": "Brass Ingot",
+  "item.mattamsmod.brass_nugget": "Brass Nugget",
+  "item.mattamsmod.brass_sword": "Brass Sword",
+  "item.mattamsmod.brass_pickaxe": "Brass Pickaxe",
+  "item.mattamsmod.brass_axe": "Brass Axe",
+  "item.mattamsmod.brass_shovel": "Brass Shovel",
+  "item.mattamsmod.brass_hoe": "Brass Hoe",
+  "item.mattamsmod.brass_helmet": "Brass Helmet",
+  "item.mattamsmod.brass_chestplate": "Brass Chestplate",
+  "item.mattamsmod.brass_leggins": "Brass Leggings",
+  "item.mattamsmod.brass_boots": "Brass Boots",
+
+  "block.mattamsmod.brass_block": "Brass Block",
+  "block.mattamsmod.brass_ore": "Brass Ore",
+  "block.mattamsmod.deepslate_brass_ore": "Deepslate Brass Ore",
+  "block.mattamsmod.brass_slab": "Brass Slab",
+  "block.mattamsmod.brass_stairs": "Brass Stairs",
+  "block.mattamsmod.brass_fence": "Brass Fence",
+  "block.mattamsmod.brass_fence_gate": "Brass Fence Gate",
+  "block.mattamsmod.brass_wall": "Brass Wall",
+  "block.mattamsmod.brass_button": "Brass Button",
+  "block.mattamsmod.brass_pressure_plate": "Brass Pressure Plate",
+  "block.mattamsmod.brass_door": "Brass Door",
+  "block.mattamsmod.brass_trapdoor": "Brass Trapdoor"
+}

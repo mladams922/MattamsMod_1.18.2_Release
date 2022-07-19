@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "mattamsmod:block/brass_block",
+    "top": "mattamsmod:block/brass_block",
+    "side": "mattamsmod:block/brass_block"
+  }
+}

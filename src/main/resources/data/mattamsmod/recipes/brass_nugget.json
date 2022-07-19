@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mattamsmod:brass_ingot"
+    }
+  ],
+  "result": {
+    "item": "mattamsmod:brass_nugget",
+    "count": 9
+  }
+}

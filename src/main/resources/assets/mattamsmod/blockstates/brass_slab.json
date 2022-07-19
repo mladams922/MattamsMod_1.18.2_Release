@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mattamsmod:block/brass_slab"
+    },
+    "type=double": {
+      "model": "mattamsmod:block/brass_block"
+    },
+    "type=top": {
+      "model": "mattamsmod:block/brass_slab_top"
+    }
+  }
+}

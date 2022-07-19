@@ -1,6 +1,10 @@
 package com.mattams.mattamsmod;
 
+import com.mattams.mattamsmod.brass.BrassBlocks;
+import com.mattams.mattamsmod.brass.BrassModule;
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -9,6 +13,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
@@ -31,13 +36,21 @@ public class MattamsMod
         // Register the setup method for modloading
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::setup);
+        modEventBus.addListener(this::clientSetup);
         // Register the enqueueIMC method for modloading
         modEventBus.addListener(this::enqueueIMC);
         // Register the processIMC method for modloading
         modEventBus.addListener(this::processIMC);
 
+        BrassModule.register(modEventBus);
+
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+    }
+
+    private void clientSetup(final FMLClientSetupEvent event){
+        ItemBlockRenderTypes.setRenderLayer(BrassBlocks.BRASS_DOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(BrassBlocks.BRASS_TRAPDOOR.get(), RenderType.cutout());
     }
 
     private void setup(final FMLCommonSetupEvent event)

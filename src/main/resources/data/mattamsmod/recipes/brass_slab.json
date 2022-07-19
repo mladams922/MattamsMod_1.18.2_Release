@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "metal_slab",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mattamsmod:brass_block"
+    }
+  },
+  "result": {
+    "item": "mattamsmod:brass_slab",
+    "count": 6
+  }
+}

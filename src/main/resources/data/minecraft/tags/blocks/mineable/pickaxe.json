@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "mattamsmod:brass_block",
+    "mattamsmod:brass_ore",
+    "mattamsmod:deepslate_brass_ore",
+    "mattamsmod:brass_slab",
+    "mattamsmod:brass_stairs",
+    "mattamsmod:brass_fence",
+    "mattamsmod:brass_fence_gate",
+    "mattamsmod:brass_wall",
+    "mattamsmod:brass_button",
+    "mattamsmod:brass_pressure_plate",
+    "mattamsmod:brass_door",
+    "mattamsmod:brass_trapdoor"
+  ]
+}

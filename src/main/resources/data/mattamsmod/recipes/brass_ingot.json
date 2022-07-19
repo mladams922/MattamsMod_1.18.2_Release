@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "brass_ingot",
+  "ingredients": [
+    {
+      "item": "mattamsmod:brass_block"
+    }
+  ],
+  "result": {
+    "item": "mattamsmod:brass_ingot",
+    "count": 9
+  }
+}

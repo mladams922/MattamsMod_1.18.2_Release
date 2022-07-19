@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "mattamsmod:block/brass_pressure_plate"
+    },
+    "powered=true": {
+      "model": "mattamsmod:block/brass_pressure_plate_down"
+    }
+  }
+}
