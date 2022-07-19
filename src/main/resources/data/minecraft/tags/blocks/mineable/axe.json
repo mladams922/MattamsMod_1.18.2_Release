@@ -1,5 +1,17 @@
 {
   "replace": false,
   "values": [
+    "mattamsmod:redwood_log",
+    "mattamsmod:redwood_wood",
+    "mattamsmod:stripped_redwood_log",
+    "mattamsmod:stripped_redwood_wood",
+    "mattamsmod:redwood_planks",
+    "mattamsmod:redwood_door",
+    "mattamsmod:redwood_button",
+    "mattamsmod:redwood_slab",
+    "mattamsmod:redwood_stairs",
+    "mattamsmod:redwood_fence",
+    "mattamsmod:redwood_fence_gate",
+    "mattamsmod:redwood_pressure_plate"
   ]
 }

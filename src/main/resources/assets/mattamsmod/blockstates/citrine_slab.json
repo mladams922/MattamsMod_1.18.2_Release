@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mattamsmod:block/citrine_slab"
+    },
+    "type=double": {
+      "model": "mattamsmod:block/citrine_block"
+    },
+    "type=top": {
+      "model": "mattamsmod:block/citrine_slab_top"
+    }
+  }
+}

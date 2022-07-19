@@ -19,7 +19,7 @@ public class BrassBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MattamsMod.MOD_ID);
 
     public static final RegistryObject<Block> BRASS_BLOCK = registerBlock("brass_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(8f).requiresCorrectToolForDrops()),
             MattamsCreativeModeTab.MATTAMS_TAB);
 
     public static final RegistryObject<Block> BRASS_ORE = registerBlock("brass_ore",
@@ -32,11 +32,11 @@ public class BrassBlocks {
 
     public static final RegistryObject<Block> BRASS_STAIRS = registerBlock("brass_stairs",
             () -> new StairBlock(() -> BrassBlocks.BRASS_BLOCK.get().defaultBlockState(),
-                    BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),
+                    BlockBehaviour.Properties.of(Material.METAL).strength(8f).requiresCorrectToolForDrops()),
             MattamsCreativeModeTab.MATTAMS_TAB);
 
     public static final RegistryObject<Block> BRASS_SLAB = registerBlock("brass_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.METAL).strength(8f).requiresCorrectToolForDrops()),
             MattamsCreativeModeTab.MATTAMS_TAB);
 
     public static final RegistryObject<Block> BRASS_FENCE = registerBlock("brass_fence",
@@ -48,11 +48,11 @@ public class BrassBlocks {
             MattamsCreativeModeTab.MATTAMS_TAB);
 
     public static final RegistryObject<Block> BRASS_WALL = registerBlock("brass_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.METAL).strength(8f).requiresCorrectToolForDrops()),
             MattamsCreativeModeTab.MATTAMS_TAB);
 
     public static final RegistryObject<Block> BRASS_BUTTON = registerBlock("brass_button",
-            () -> new StoneButtonBlock(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops().noCollission()),
+            () -> new StoneButtonBlock(BlockBehaviour.Properties.of(Material.METAL).strength(8f).requiresCorrectToolForDrops().noCollission()),
             MattamsCreativeModeTab.MATTAMS_TAB);
 
     public static final RegistryObject<Block> BRASS_PRESSURE_PLATE = registerBlock("brass_pressure_plate",
@@ -60,11 +60,11 @@ public class BrassBlocks {
             MattamsCreativeModeTab.MATTAMS_TAB);
 
     public static final RegistryObject<Block> BRASS_DOOR = registerBlock("brass_door",
-            () -> new DoorBlock(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops().noCollission()),
+            () -> new DoorBlock(BlockBehaviour.Properties.of(Material.METAL).strength(8f).requiresCorrectToolForDrops().noCollission()),
             MattamsCreativeModeTab.MATTAMS_TAB);
 
     public static final RegistryObject<Block> BRASS_TRAPDOOR = registerBlock("brass_trapdoor",
-            () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops().noCollission()),
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.METAL).strength(8f).requiresCorrectToolForDrops().noCollission()),
             MattamsCreativeModeTab.MATTAMS_TAB);
 
     private static <T extends Block>RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block, CreativeModeTab tab){

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "mattamsmod:brass_wall"
+    "mattamsmod:brass_wall",
+    "mattamsmod:titanium_wall",
+    "mattamsmod:citrine_wall"
   ]
 }

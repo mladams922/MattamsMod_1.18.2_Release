@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "mattamsmod:block/redwood_log_top",
+    "side": "mattamsmod:block/redwood_log"
+  }
+}

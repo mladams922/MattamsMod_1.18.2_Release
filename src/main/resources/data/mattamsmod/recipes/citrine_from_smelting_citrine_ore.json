@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "mattamsmod:citrine_ore"
+  },
+  "result": "mattamsmod:citrine",
+  "experience": 1,
+  "cookingtime": 300
+}

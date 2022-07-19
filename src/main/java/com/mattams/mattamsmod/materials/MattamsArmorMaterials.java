@@ -2,6 +2,8 @@ package com.mattams.mattamsmod.materials;
 
 import com.mattams.mattamsmod.MattamsMod;
 import com.mattams.mattamsmod.brass.BrassItems;
+import com.mattams.mattamsmod.citrine.CitrineItems;
+import com.mattams.mattamsmod.titanium.TitaniumItems;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.LazyLoadedValue;
@@ -15,13 +17,13 @@ import java.util.function.Supplier;
 public enum MattamsArmorMaterials implements ArmorMaterial {
     BRASS("brass", 15, new int[]{2, 5, 6, 2}, 15, SoundEvents.ARMOR_EQUIP_IRON, 0.5F, 0.0F, () -> {
         return Ingredient.of(BrassItems.BRASS_INGOT.get());
-    });
-    /*TITANIUM("titanium", 45, new int[]{4, 7, 10, 4}, 25, SoundEvents.ARMOR_EQUIP_IRON, 4.0F, 0.5F, () -> {
+    }),
+    TITANIUM("titanium", 45, new int[]{4, 7, 10, 4}, 25, SoundEvents.ARMOR_EQUIP_IRON, 4.0F, 0.5F, () -> {
         return Ingredient.of(TitaniumItems.TITANIUM_INGOT.get());
     }),
     CITRINE("citrine", 20, new int[]{3, 5, 7, 3}, 15, SoundEvents.ARMOR_EQUIP_IRON, 1.5F, 1.0F, () -> {
         return Ingredient.of(CitrineItems.CITRINE.get());
-    });*/
+    });
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
     private final String name;

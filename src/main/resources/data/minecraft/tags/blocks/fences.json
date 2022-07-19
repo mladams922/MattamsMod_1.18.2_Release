@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "mattamsmod:brass_fence"
+    "mattamsmod:brass_fence",
+    "mattamsmod:titanium_fence",
+    "mattamsmod:citrine_fence",
+    "mattamsmod:redwood_fence"
   ]
 }

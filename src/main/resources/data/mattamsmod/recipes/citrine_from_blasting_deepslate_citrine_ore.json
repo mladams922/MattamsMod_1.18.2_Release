@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "mattamsmod:deepslate_citrine_ore"
+  },
+  "result": "mattamsmod:citrine",
+  "experience": 0.7,
+  "cookingtime": 100
+}

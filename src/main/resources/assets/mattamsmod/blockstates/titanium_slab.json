@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mattamsmod:block/titanium_slab"
+    },
+    "type=double": {
+      "model": "mattamsmod:block/titanium_block"
+    },
+    "type=top": {
+      "model": "mattamsmod:block/titanium_slab_top"
+    }
+  }
+}

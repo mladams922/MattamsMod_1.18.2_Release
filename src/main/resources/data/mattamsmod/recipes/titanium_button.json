@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "mattamsmod:titanium_block"
+    }
+  ],
+  "result": {
+    "item": "mattamsmod:titanium_button"
+  }
+}

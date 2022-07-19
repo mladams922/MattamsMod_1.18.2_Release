@@ -1,5 +1,17 @@
 {
   "replace": false,
   "values": [
+    "mattamsmod:titanium_block",
+    "mattamsmod:titanium_ore",
+    "mattamsmod:deepslate_titanium_ore",
+    "mattamsmod:titanium_slab",
+    "mattamsmod:titanium_stairs",
+    "mattamsmod:titanium_fence",
+    "mattamsmod:titanium_fence_gate",
+    "mattamsmod:titanium_wall",
+    "mattamsmod:titanium_button",
+    "mattamsmod:titanium_pressure_plate",
+    "mattamsmod:titanium_door",
+    "mattamsmod:titanium_trapdoor"
   ]
 }

@@ -2,6 +2,10 @@ package com.mattams.mattamsmod;
 
 import com.mattams.mattamsmod.brass.BrassBlocks;
 import com.mattams.mattamsmod.brass.BrassModule;
+import com.mattams.mattamsmod.citrine.CitrineModule;
+import com.mattams.mattamsmod.redwood.RedwoodModule;
+import com.mattams.mattamsmod.titanium.TitaniumBlocks;
+import com.mattams.mattamsmod.titanium.TitaniumModule;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -43,6 +47,9 @@ public class MattamsMod
         modEventBus.addListener(this::processIMC);
 
         BrassModule.register(modEventBus);
+        TitaniumModule.register(modEventBus);
+        CitrineModule.register(modEventBus);
+        RedwoodModule.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -51,6 +58,9 @@ public class MattamsMod
     private void clientSetup(final FMLClientSetupEvent event){
         ItemBlockRenderTypes.setRenderLayer(BrassBlocks.BRASS_DOOR.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(BrassBlocks.BRASS_TRAPDOOR.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(TitaniumBlocks.TITANIUM_DOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(TitaniumBlocks.TITANIUM_TRAPDOOR.get(), RenderType.cutout());
     }
 
     private void setup(final FMLCommonSetupEvent event)

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "mattamsmod:block/titanium_block",
+    "top": "mattamsmod:block/titanium_block",
+    "side": "mattamsmod:block/titanium_block"
+  }
+}

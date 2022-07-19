@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "top": "mattamsmod:block/titanium_door_top",
+    "bottom": "mattamsmod:block/titanium_door_bottom"
+  }
+}

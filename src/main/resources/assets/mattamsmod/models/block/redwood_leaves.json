@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "mattamsmod:block/redwood_leaves"
+  }
+}

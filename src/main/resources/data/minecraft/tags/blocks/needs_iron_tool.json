@@ -1,5 +1,18 @@
 {
   "replace": false,
   "values": [
+    "mattamsmod:citrine_block",
+    "mattamsmod:raw_citrine_block",
+    "mattamsmod:citrine_ore",
+    "mattamsmod:deepslate_citrine_ore",
+    "mattamsmod:endstone_citrine_ore",
+    "mattamsmod:netherrack_citrine_ore",
+    "mattamsmod:citrine_slab",
+    "mattamsmod:citrine_stairs",
+    "mattamsmod:citrine_fence",
+    "mattamsmod:citrine_fence_gate",
+    "mattamsmod:citrine_wall",
+    "mattamsmod:citrine_button",
+    "mattamsmod:citrine_pressure_plate"
   ]
 }

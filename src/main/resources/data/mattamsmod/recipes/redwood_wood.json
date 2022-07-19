@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "mattamsmod:redwood_log"
+    }
+  },
+  "result": {
+    "item": "mattamsmod:redwood_wood",
+    "count": 3
+  }
+}
