@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "mattamsmod:block/stripped_ebony_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "mattamsmod:block/stripped_ebony_log"
+    },
+    "axis=z": {
+      "model": "mattamsmod:block/stripped_ebony_log_horizontal",
+      "x": 90
+    }
+  }
+}

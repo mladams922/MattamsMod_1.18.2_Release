@@ -12,6 +12,19 @@
     "mattamsmod:redwood_stairs",
     "mattamsmod:redwood_fence",
     "mattamsmod:redwood_fence_gate",
-    "mattamsmod:redwood_pressure_plate"
+    "mattamsmod:redwood_pressure_plate",
+    "mattamsmod:ebony_log",
+    "mattamsmod:ebony_wood",
+    "mattamsmod:stripped_ebony_log",
+    "mattamsmod:stripped_ebony_wood",
+    "mattamsmod:ebony_planks",
+    "mattamsmod:ebony_door",
+    "mattamsmod:ebony_button",
+    "mattamsmod:ebony_slab",
+    "mattamsmod:ebony_stairs",
+    "mattamsmod:ebony_fence",
+    "mattamsmod:ebony_fence_gate",
+    "mattamsmod:ebony_pressure_plate",
+    "mattamsmod:ebony_trapdoor"
   ]
 }

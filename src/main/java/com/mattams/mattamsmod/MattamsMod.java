@@ -3,6 +3,9 @@ package com.mattams.mattamsmod;
 import com.mattams.mattamsmod.brass.BrassBlocks;
 import com.mattams.mattamsmod.brass.BrassModule;
 import com.mattams.mattamsmod.citrine.CitrineModule;
+import com.mattams.mattamsmod.ebony.EbonyBlocks;
+import com.mattams.mattamsmod.ebony.EbonyModule;
+import com.mattams.mattamsmod.redwood.RedwoodBlocks;
 import com.mattams.mattamsmod.redwood.RedwoodModule;
 import com.mattams.mattamsmod.titanium.TitaniumBlocks;
 import com.mattams.mattamsmod.titanium.TitaniumModule;
@@ -50,6 +53,7 @@ public class MattamsMod
         TitaniumModule.register(modEventBus);
         CitrineModule.register(modEventBus);
         RedwoodModule.register(modEventBus);
+        EbonyModule.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -61,6 +65,13 @@ public class MattamsMod
 
         ItemBlockRenderTypes.setRenderLayer(TitaniumBlocks.TITANIUM_DOOR.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(TitaniumBlocks.TITANIUM_TRAPDOOR.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(RedwoodBlocks.REDWOOD_DOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(EbonyBlocks.EBONY_DOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(EbonyBlocks.EBONY_TRAPDOOR.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(EbonyBlocks.EBONY_LEAVES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(EbonyBlocks.EBONY_SAPLING.get(), RenderType.cutout());
     }
 
     private void setup(final FMLCommonSetupEvent event)

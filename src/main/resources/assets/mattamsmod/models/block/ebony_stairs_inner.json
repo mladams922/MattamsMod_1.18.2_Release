@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "mattamsmod:block/ebony_planks",
+    "top": "mattamsmod:block/ebony_planks",
+    "side": "mattamsmod:block/ebony_planks"
+  }
+}
