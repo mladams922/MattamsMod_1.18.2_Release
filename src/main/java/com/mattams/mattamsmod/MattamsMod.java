@@ -72,6 +72,9 @@ public class MattamsMod
 
         ItemBlockRenderTypes.setRenderLayer(EbonyBlocks.EBONY_LEAVES.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(EbonyBlocks.EBONY_SAPLING.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(RedwoodBlocks.REDWOOD_LEAVES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(RedwoodBlocks.REDWOOD_SAPLING.get(), RenderType.cutout());
     }
 
     private void setup(final FMLCommonSetupEvent event)

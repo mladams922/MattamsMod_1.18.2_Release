@@ -17,8 +17,8 @@ public class MattamsPlacedFeatures {
                     HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-100), VerticalAnchor.aboveBottom(250))));
 
     public static final Holder<PlacedFeature> CITRINE_ORE_PLACED = PlacementUtils.register("citrine_ore_placed",
-            MattamsConfiguredFeatures.CITRINE_ORE, MattamsOrePlacement.commonOrePlacement(8,
-                    HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-100), VerticalAnchor.aboveBottom(50))));
+            MattamsConfiguredFeatures.CITRINE_ORE, MattamsOrePlacement.commonOrePlacement(10,
+                    HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-100), VerticalAnchor.aboveBottom(100))));
 
     public static final Holder<PlacedFeature> NETHER_CITRINE_ORE_PLACED = PlacementUtils.register("nether_citrine_ore_placed",
             MattamsConfiguredFeatures.NETHER_CITRINE_ORE, MattamsOrePlacement.commonOrePlacement(10,

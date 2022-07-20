@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brass_ingot"
+      "item": "mattamsmod:brass_ingot"
     }
   },
   "result": {
-    "item": "minecraft:brass_boots"
+    "item": "mattamsmod:brass_boots"
   }
 }

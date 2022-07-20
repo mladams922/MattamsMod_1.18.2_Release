@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#tutorialmod:ebony_logs",
-    "#tutorialmod:redwood_logs"
+    "#mattamsmod:ebony_logs",
+    "#mattamsmod:redwood_logs"
   ]
 }

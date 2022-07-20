@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:citrine_ingot"
+      "item": "mattamsmod:citrine"
     }
   },
   "result": {
-    "item": "minecraft:citrine_chestplate"
+    "item": "mattamsmod:citrine_chestplate"
   }
 }

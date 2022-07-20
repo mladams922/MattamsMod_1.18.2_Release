@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "tutorialmod:redwood_log",
-    "tutorialmod:redwood_wood",
-    "tutorialmod:stripped_redwood_log",
-    "tutorialmod:stripped_redwood_wood"
+    "mattamsmod:redwood_log",
+    "mattamsmod:redwood_wood",
+    "mattamsmod:stripped_redwood_log",
+    "mattamsmod:stripped_redwood_wood"
   ]
 }

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brass_ingot"
+      "item": "mattamsmod:brass_ingot"
     }
   },
   "result": {
-    "item": "minecraft:brass_chestplate"
+    "item": "mattamsmod:brass_chestplate"
   }
 }

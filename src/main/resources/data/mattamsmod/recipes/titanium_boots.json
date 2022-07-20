@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:titanium_ingot"
+      "item": "mattamsmod:titanium_ingot"
     }
   },
   "result": {
-    "item": "minecraft:titanium_boots"
+    "item": "mattamsmod:titanium_boots"
   }
 }
