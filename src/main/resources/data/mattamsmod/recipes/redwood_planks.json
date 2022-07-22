@@ -3,7 +3,7 @@
   "group": "planks",
   "ingredients": [
     {
-      "tag": "mattamsmod:redwood_log"
+      "item": "mattamsmod:redwood_log"
     }
   ],
   "result": {

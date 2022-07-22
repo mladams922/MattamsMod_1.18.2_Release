@@ -3,7 +3,7 @@
   "group": "planks",
   "ingredients": [
     {
-      "tag": "mattamsmod:ebony_log"
+      "item": "mattamsmod:ebony_log"
     }
   ],
   "result": {
