@@ -1,2 +1,2 @@
-1.1.0
-- JEI integration
+1.0.3
+-Added raw_citrine_ore block recipe
