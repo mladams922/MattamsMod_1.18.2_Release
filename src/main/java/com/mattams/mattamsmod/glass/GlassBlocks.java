@@ -28,8 +28,28 @@ public class GlassBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
             MattamsCreativeModeTab.MATTAMS_TAB);
 
+    public static final RegistryObject<Block> GLASS_FENCE = registerBlock("glass_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> GLASS_FENCE_GATE = registerBlock("glass_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> GLASS_WALL = registerBlock("glass_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> GLASS_BUTTON = registerBlock("glass_button",
+            () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> GLASS_PRESSURE_PLATE = registerBlock("glass_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
     private static <T extends Block>RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block, CreativeModeTab tab){
-        return BrassItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+        return GlassItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
     }
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mattamsmod:redwood_log",
+    "mattamsmod:redwood_wood",
+    "mattamsmod:stripped_redwood_log",
+    "mattamsmod:stripped_redwood_wood"
+  ]
+}
