@@ -1,6 +1,14 @@
 {
   "itemGroup.mattamstab": "Mattams Tab",
 
+  "item.mattamsmod.glass_slab": "Glass Slab",
+  "item.mattamsmod.glass_slab": "Glass Stairs",
+  "block.mattamsmod.glass_fence": "Glass Fence",
+  "block.mattamsmod.glass_fence_gate": "Glass Fence Gate",
+  "block.mattamsmod.glass_wall": "Glass Wall",
+  "block.mattamsmod.glass_button": "Glass Button",
+  "block.mattamsmod.glass_pressure_plate": "Glass Pressure Plate",
+
   "item.mattamsmod.raw_brass": "Raw Brass",
   "item.mattamsmod.brass_ingot": "Brass Ingot",
   "item.mattamsmod.brass_nugget": "Brass Nugget",

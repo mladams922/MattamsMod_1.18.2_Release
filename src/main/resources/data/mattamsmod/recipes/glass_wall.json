@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glass_block"
+    }
+  },
+  "result": {
+    "item": "mattamsmod:glass_wall",
+    "count": 6
+  }
+}

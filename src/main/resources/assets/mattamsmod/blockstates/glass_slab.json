@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mattamsmod:block/glass_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/glass"
+    },
+    "type=top": {
+      "model": "mattamsmod:block/glass_slab_top"
+    }
+  }
+}

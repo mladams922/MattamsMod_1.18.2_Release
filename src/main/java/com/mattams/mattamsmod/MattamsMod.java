@@ -5,6 +5,8 @@ import com.mattams.mattamsmod.brass.BrassModule;
 import com.mattams.mattamsmod.citrine.CitrineModule;
 import com.mattams.mattamsmod.ebony.EbonyBlocks;
 import com.mattams.mattamsmod.ebony.EbonyModule;
+import com.mattams.mattamsmod.glass.GlassBlocks;
+import com.mattams.mattamsmod.glass.GlassModule;
 import com.mattams.mattamsmod.redwood.RedwoodBlocks;
 import com.mattams.mattamsmod.redwood.RedwoodModule;
 import com.mattams.mattamsmod.titanium.TitaniumBlocks;
@@ -54,12 +56,21 @@ public class MattamsMod
         CitrineModule.register(modEventBus);
         RedwoodModule.register(modEventBus);
         EbonyModule.register(modEventBus);
+        GlassModule.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
 
     private void clientSetup(final FMLClientSetupEvent event){
+        ItemBlockRenderTypes.setRenderLayer(GlassBlocks.GLASS_SLAB.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(GlassBlocks.GLASS_STAIRS.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(GlassBlocks.GLASS_BUTTON.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(GlassBlocks.GLASS_FENCE.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(GlassBlocks.GLASS_FENCE_GATE.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(GlassBlocks.GLASS_PRESSURE_PLATE.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(GlassBlocks.GLASS_WALL.get(), RenderType.translucent());
+
         ItemBlockRenderTypes.setRenderLayer(BrassBlocks.BRASS_DOOR.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(BrassBlocks.BRASS_TRAPDOOR.get(), RenderType.cutout());
 
