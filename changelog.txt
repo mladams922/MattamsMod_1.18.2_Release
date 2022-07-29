@@ -3,3 +3,9 @@
 
 1.1.0
 -Added compatibility with create crushing recipes for brass, titanium, and citrine
+
+1.2.0
+-Added glass blocks: Stairs, slabs, fence, fence gate, and pressure plates
+
+1.2.1
+-Fix bug in recipes for glass stairs
