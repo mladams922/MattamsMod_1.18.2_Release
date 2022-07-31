@@ -24,9 +24,152 @@ public class GlassBlocks {
                     BlockBehaviour.Properties.copy(Blocks.GLASS)),
             MattamsCreativeModeTab.MATTAMS_TAB);
 
+    /*public static final RegistryObject<Block> BLACK_STAINED_GLASS_STAIRS = registerBlock("black_stained_glass_stairs",
+            () -> new StairBlock(() -> Blocks.BLACK_STAINED_GLASS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> GRAY_STAINED_GLASS_STAIRS = registerBlock("gray_stained_glass_stairs",
+            () -> new StairBlock(() -> Blocks.GRAY_STAINED_GLASS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> LIGHT_GRAY_STAINED_GLASS_STAIRS = registerBlock("light_gray_stained_glass_stairs",
+            () -> new StairBlock(() -> Blocks.LIGHT_GRAY_STAINED_GLASS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> WHITE_STAINED_GLASS_STAIRS = registerBlock("white_stained_glass_stairs",
+            () -> new StairBlock(() -> Blocks.WHITE_STAINED_GLASS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+    public static final RegistryObject<Block> BROWN_STAINED_GLASS_STAIRS = registerBlock("brown_stained_glass_stairs",
+            () -> new StairBlock(() -> Blocks.BROWN_STAINED_GLASS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> RED_STAINED_GLASS_STAIRS = registerBlock("red_stained_glass_stairs",
+            () -> new StairBlock(() -> Blocks.RED_STAINED_GLASS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> ORANGE_STAINED_GLASS_STAIRS = registerBlock("orange_stained_glass_stairs",
+            () -> new StairBlock(() -> Blocks.ORANGE_STAINED_GLASS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> YELLOW_STAINED_GLASS_STAIRS = registerBlock("yellow_stained_glass_stairs",
+            () -> new StairBlock(() -> Blocks.YELLOW_STAINED_GLASS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> LIME_STAINED_GLASS_STAIRS = registerBlock("lime_stained_glass_stairs",
+            () -> new StairBlock(() -> Blocks.LIME_STAINED_GLASS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> GREEN_STAINED_GLASS_STAIRS = registerBlock("green_stained_glass_stairs",
+            () -> new StairBlock(() -> Blocks.GREEN_STAINED_GLASS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> CYAN_STAINED_GLASS_STAIRS = registerBlock("cyan_stained_glass_stairs",
+            () -> new StairBlock(() -> Blocks.CYAN_STAINED_GLASS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> BLUE_STAINED_GLASS_STAIRS = registerBlock("blue_stained_glass_stairs",
+            () -> new StairBlock(() -> Blocks.BLUE_STAINED_GLASS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> LIGHT_BLUE_STAINED_GLASS_STAIRS = registerBlock("light_blue_stained_glass_stairs",
+            () -> new StairBlock(() -> Blocks.LIGHT_BLUE_STAINED_GLASS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> PINK_STAINED_GLASS_STAIRS = registerBlock("pink_stained_glass_stairs",
+            () -> new StairBlock(() -> Blocks.PINK_STAINED_GLASS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> PURPLE_STAINED_GLASS_STAIRS = registerBlock("purple_stained_glass_stairs",
+            () -> new StairBlock(() -> Blocks.PURPLE_STAINED_GLASS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> MAGENTA_STAINED_GLASS_STAIRS = registerBlock("magenta_stained_glass_stairs",
+            () -> new StairBlock(() -> Blocks.MAGENTA_STAINED_GLASS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);*/
+
     public static final RegistryObject<Block> GLASS_SLAB = registerBlock("glass_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
             MattamsCreativeModeTab.MATTAMS_TAB);
+
+    /*public static final RegistryObject<Block> BLACK_STAINED_GLASS_SLAB = registerBlock("black_stained_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> GRAY_STAINED_GLASS_SLAB = registerBlock("gray_stained_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> LIGHT_GRAY_STAINED_GLASS_SLAB = registerBlock("light_gray_stained_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> WHITE_STAINED_GLASS_SLAB = registerBlock("white_stained_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> BROWN_STAINED_GLASS_SLAB = registerBlock("brown_stained_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> RED_STAINED_GLASS_SLAB = registerBlock("red_stained_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> ORANGE_STAINED_GLASS_SLAB = registerBlock("orange_stained_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> YELLOW_STAINED_GLASS_SLAB = registerBlock("yellow_stained_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> LIME_STAINED_GLASS_SLAB = registerBlock("lime_stained_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> GREEN_STAINED_GLASS_SLAB = registerBlock("green_stained_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> CYAN_STAINED_GLASS_SLAB = registerBlock("cyan_stained_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> BLUE_STAINED_GLASS_SLAB = registerBlock("blue_stained_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> LIGHT_BLUE_STAINED_GLASS_SLAB = registerBlock("light_blue_stained_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> PINK_STAINED_GLASS_SLAB = registerBlock("pink_stained_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> PURPLE_STAINED_GLASS_SLAB = registerBlock("purple_stained_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);
+
+    public static final RegistryObject<Block> MAGENTA_STAINED_GLASS_SLAB = registerBlock("magenta_stained_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
+            MattamsCreativeModeTab.MATTAMS_TAB);*/
 
     public static final RegistryObject<Block> GLASS_FENCE = registerBlock("glass_fence",
             () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),

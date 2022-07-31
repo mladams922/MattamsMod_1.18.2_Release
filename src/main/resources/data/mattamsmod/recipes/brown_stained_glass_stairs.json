@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "metal_stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brown_stained_glass"
+    }
+  },
+  "result": {
+    "item": "mattamsmod:brown_stained_glass_stairs",
+    "count": 4
+  }
+}

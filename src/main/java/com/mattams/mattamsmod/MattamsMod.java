@@ -45,7 +45,6 @@ public class MattamsMod
         // Register the setup method for modloading
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::setup);
-        modEventBus.addListener(this::clientSetup);
         // Register the enqueueIMC method for modloading
         modEventBus.addListener(this::enqueueIMC);
         // Register the processIMC method for modloading
@@ -60,32 +59,6 @@ public class MattamsMod
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
-    }
-
-    private void clientSetup(final FMLClientSetupEvent event){
-        ItemBlockRenderTypes.setRenderLayer(GlassBlocks.GLASS_SLAB.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(GlassBlocks.GLASS_STAIRS.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(GlassBlocks.GLASS_BUTTON.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(GlassBlocks.GLASS_FENCE.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(GlassBlocks.GLASS_FENCE_GATE.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(GlassBlocks.GLASS_PRESSURE_PLATE.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(GlassBlocks.GLASS_WALL.get(), RenderType.translucent());
-
-        ItemBlockRenderTypes.setRenderLayer(BrassBlocks.BRASS_DOOR.get(), RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(BrassBlocks.BRASS_TRAPDOOR.get(), RenderType.cutout());
-
-        ItemBlockRenderTypes.setRenderLayer(TitaniumBlocks.TITANIUM_DOOR.get(), RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(TitaniumBlocks.TITANIUM_TRAPDOOR.get(), RenderType.cutout());
-
-        ItemBlockRenderTypes.setRenderLayer(RedwoodBlocks.REDWOOD_DOOR.get(), RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(EbonyBlocks.EBONY_DOOR.get(), RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(EbonyBlocks.EBONY_TRAPDOOR.get(), RenderType.cutout());
-
-        ItemBlockRenderTypes.setRenderLayer(EbonyBlocks.EBONY_LEAVES.get(), RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(EbonyBlocks.EBONY_SAPLING.get(), RenderType.cutout());
-
-        ItemBlockRenderTypes.setRenderLayer(RedwoodBlocks.REDWOOD_LEAVES.get(), RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(RedwoodBlocks.REDWOOD_SAPLING.get(), RenderType.cutout());
     }
 
     private void setup(final FMLCommonSetupEvent event)
