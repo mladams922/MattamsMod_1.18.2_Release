@@ -45,7 +45,7 @@ public class ModEventClientBusEvents {
         ItemBlockRenderTypes.setRenderLayer(GlassBlocks.GLASS_FENCE_GATE.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(GlassBlocks.GLASS_PRESSURE_PLATE.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(GlassBlocks.GLASS_WALL.get(), RenderType.translucent());
-/*
+
         ItemBlockRenderTypes.setRenderLayer(GlassBlocks.BLACK_STAINED_GLASS_SLAB.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(GlassBlocks.BLACK_STAINED_GLASS_STAIRS.get(), RenderType.translucent());
 
@@ -93,7 +93,7 @@ public class ModEventClientBusEvents {
 
         ItemBlockRenderTypes.setRenderLayer(GlassBlocks.MAGENTA_STAINED_GLASS_SLAB.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(GlassBlocks.MAGENTA_STAINED_GLASS_STAIRS.get(), RenderType.translucent());
-        */
+
 
     }
 }

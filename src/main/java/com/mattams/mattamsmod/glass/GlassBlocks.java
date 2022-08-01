@@ -24,7 +24,7 @@ public class GlassBlocks {
                     BlockBehaviour.Properties.copy(Blocks.GLASS)),
             MattamsCreativeModeTab.MATTAMS_TAB);
 
-    /*public static final RegistryObject<Block> BLACK_STAINED_GLASS_STAIRS = registerBlock("black_stained_glass_stairs",
+    public static final RegistryObject<Block> BLACK_STAINED_GLASS_STAIRS = registerBlock("black_stained_glass_stairs",
             () -> new StairBlock(() -> Blocks.BLACK_STAINED_GLASS.defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.GLASS)),
             MattamsCreativeModeTab.MATTAMS_TAB);
@@ -101,13 +101,13 @@ public class GlassBlocks {
     public static final RegistryObject<Block> MAGENTA_STAINED_GLASS_STAIRS = registerBlock("magenta_stained_glass_stairs",
             () -> new StairBlock(() -> Blocks.MAGENTA_STAINED_GLASS.defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.GLASS)),
-            MattamsCreativeModeTab.MATTAMS_TAB);*/
+            MattamsCreativeModeTab.MATTAMS_TAB);
 
     public static final RegistryObject<Block> GLASS_SLAB = registerBlock("glass_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
             MattamsCreativeModeTab.MATTAMS_TAB);
 
-    /*public static final RegistryObject<Block> BLACK_STAINED_GLASS_SLAB = registerBlock("black_stained_glass_slab",
+    public static final RegistryObject<Block> BLACK_STAINED_GLASS_SLAB = registerBlock("black_stained_glass_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
             MattamsCreativeModeTab.MATTAMS_TAB);
 
@@ -169,7 +169,7 @@ public class GlassBlocks {
 
     public static final RegistryObject<Block> MAGENTA_STAINED_GLASS_SLAB = registerBlock("magenta_stained_glass_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
-            MattamsCreativeModeTab.MATTAMS_TAB);*/
+            MattamsCreativeModeTab.MATTAMS_TAB);
 
     public static final RegistryObject<Block> GLASS_FENCE = registerBlock("glass_fence",
             () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)),
