@@ -1,11 +1,13 @@
 package com.mattams.mattamsmod.materials;
 
+import com.mattams.mattamsmod.ebony.EbonyBlocks;
 import com.mattams.mattamsmod.redwood.RedwoodBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.RotatedPillarBlock;
@@ -35,21 +37,21 @@ public class MattamsFlammableRotatedPillarBlock extends RotatedPillarBlock {
 
     @Nullable
     @Override
-    public BlockState getToolModifiedState(BlockState state, Level world, BlockPos pos, Player player, ItemStack stack, ToolAction toolAction) {
-        if(stack.getItem() instanceof AxeItem){
+    public BlockState getToolModifiedState(BlockState state, UseOnContext context, ToolAction toolAction, boolean simulate) {
+        if(context.getItemInHand().getItem() instanceof AxeItem){
             if(state.is(RedwoodBlocks.REDWOOD_LOG.get())){
                 return RedwoodBlocks.STRIPPED_REDWOOD_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
             if(state.is(RedwoodBlocks.REDWOOD_WOOD.get())){
                 return RedwoodBlocks.STRIPPED_REDWOOD_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
-            /*if(state.is(WoodBlocks.EBONY_LOG.get())){
-                return WoodBlocks.STRIPPED_EBONY_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+            if(state.is(EbonyBlocks.EBONY_LOG.get())){
+                return EbonyBlocks.STRIPPED_EBONY_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
-            if(state.is(WoodBlocks.EBONY_WOOD.get())){
-                return WoodBlocks.STRIPPED_EBONY_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
-            }*/
+            if(state.is(EbonyBlocks.EBONY_WOOD.get())){
+                return EbonyBlocks.STRIPPED_EBONY_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+            }
         }
-        return super.getToolModifiedState(state, world, pos, player, stack, toolAction);
+        return super.getToolModifiedState(state, context, toolAction, simulate);
     }
 }
