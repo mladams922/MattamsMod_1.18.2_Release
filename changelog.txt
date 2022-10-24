@@ -9,3 +9,12 @@
 
 1.2.1
 -Fix bug in recipes for glass stairs
+
+1.3.0
+-upgrade mod to 1.19.2
+
+1.3.1
+-bug fixes
+  - fixed door models and blockstates to match forge modeling
+  - fixed recipes for brass and titanium door to use ingot instead of block
+  - fixed recipes for brass and titanium walls to avoid conflict with slab recipes
