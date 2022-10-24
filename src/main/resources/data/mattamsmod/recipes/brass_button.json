@@ -3,7 +3,7 @@
   "group": "wooden_button",
   "ingredients": [
     {
-      "item": "mattamsmod:brass_block"
+      "item": "mattamsmod:brass_ingot"
     }
   ],
   "result": {

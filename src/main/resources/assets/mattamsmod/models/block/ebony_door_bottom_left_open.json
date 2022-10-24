@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_bottom_left_open",
   "textures": {
-    "bottom": "minecraft:block/ebony_door_bottom",
-    "top": "minecraft:block/ebony_door_top"
+    "bottom": "mattamsmod:block/ebony_door_bottom",
+    "top": "mattamsmod:block/ebony_door_top"
   }
 }
